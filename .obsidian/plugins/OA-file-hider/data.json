@@ -1,0 +1,14 @@
+{
+  "hidden": true,
+  "hiddenList": [
+    "_data",
+    "_includes",
+    "_javascript",
+    "_layouts",
+    "_plugins",
+    "_sass",
+    "_site",
+    "assets",
+    "tools"
+  ]
+}
