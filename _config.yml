@@ -42,7 +42,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://github.com/snooy-dev # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -96,7 +96,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
+    repo: snooy-dev/snooy-dev.github.io # <gh-username>/<repo>
     repo_id: R_kgDOLNW0zg
     category: Announcements
     category_id: DIC_kwDOLNW0zs4Cc6mr
