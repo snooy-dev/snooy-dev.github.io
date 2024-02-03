@@ -24,6 +24,6 @@ Microsoft Visual Studio를 설치하고 소스 코드를 작성해 프로그램�
 
 VisualStudioSetup.exe를 실행하여 Visual Studio Installer를 설치합니다.
 
-![image](https://drive.google.com/file/d/1hB04Mjnq5NOz-g-8WtWomLQsfS-Vuuob/view?usp=sharing){: .normal}
+![image](https://drive.google.com/uc?export=view&id=1hB04Mjnq5NOz-g-8WtWomLQsfS-Vuuob){: .normal}
 
 ## 프로그램 작성
