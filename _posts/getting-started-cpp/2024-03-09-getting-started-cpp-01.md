@@ -15,7 +15,7 @@ pin: true
 
 다음은 "Hello, World!"를 화면에 출력하는 코드입니다.
 
-```C++
+```c++
 #include <iostream>
 
 using namespace std;
