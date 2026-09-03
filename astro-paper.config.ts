@@ -4,7 +4,7 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://snooy-dev.github.io/",
     title: "snooy-dev",
-    description: "Notes on software engineering, C++, game engines, and things I learn.",
+    description: "Programming, game development, graphics, AI, and the ideas I learn along the way.",
     author: "Kim Yoon Seong",
     profile: "https://github.com/snooy-dev",
     ogImage: "default-og.jpg",
@@ -30,6 +30,7 @@ export default defineAstroPaperConfig({
   },
   socials: [
     { name: "github", url: "https://github.com/snooy-dev" },
+    { name: "instagram", url: "https://www.instagram.com/snooy_dev/" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
