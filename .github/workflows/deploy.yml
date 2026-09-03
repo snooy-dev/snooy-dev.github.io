@@ -34,10 +34,17 @@ jobs:
         run: |
           cp blog/astro-paper.config.ts site/astro-paper.config.ts
           cp blog/astro.config.ts site/astro.config.ts
-          if [ -d blog/src/data/blog ]; then
-            rm -rf site/src/data/blog
-            cp -R blog/src/data/blog site/src/data/blog
+
+          rm -rf site/src/content/posts
+          mkdir -p site/src/content/posts
+          if [ -d blog/src/content/posts ]; then
+            cp -R blog/src/content/posts/. site/src/content/posts/
           fi
+
+          if [ -d blog/src/assets/icons/socials ]; then
+            cp -R blog/src/assets/icons/socials/. site/src/assets/icons/socials/
+          fi
+
           if [ -d blog/public ]; then
             cp -R blog/public/. site/public/
           fi
