@@ -30,7 +30,9 @@ export default defineAstroPaperConfig({
   },
   socials: [
     { name: "github", url: "https://github.com/snooy-dev" },
+    { name: "x", url: "https://x.com/snooy_dev" },
     { name: "instagram", url: "https://www.instagram.com/snooy_dev/" },
+    { name: "mail", url: "mailto:snooy.dev@gmail.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
