@@ -45,6 +45,10 @@ jobs:
             cp -R blog/src/assets/icons/socials/. site/src/assets/icons/socials/
           fi
 
+          if [ -f blog/src/pages/index.astro ]; then
+            cp blog/src/pages/index.astro site/src/pages/index.astro
+          fi
+
           if [ -d blog/public ]; then
             cp -R blog/public/. site/public/
           fi
