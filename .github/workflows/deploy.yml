@@ -33,6 +33,7 @@ jobs:
       - name: Apply blog configuration
         run: |
           cp blog/astro-paper.config.ts site/astro-paper.config.ts
+          cp blog/astro.config.ts site/astro.config.ts
           if [ -d blog/src/data/blog ]; then
             rm -rf site/src/data/blog
             cp -R blog/src/data/blog site/src/data/blog
